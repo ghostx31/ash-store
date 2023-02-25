@@ -1,0 +1,136 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  .poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+  }
+/*   
+  h1 {
+    font-size: 3em;
+    margin-top: 1em;
+  }
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 1em 0;
+  }
+  
+  button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 1em;
+    padding: 0.5em 1em;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  button:active {
+    background-color: #777;
+  }
+   */
+  /* Hide scrollbar */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+
+
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #555;
+    height: 3vh;
+    color: white;
+  }
+  .search-box input[type="text"]:focus {
+    outline: none;
+  }
+  .search-box button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin:0;
+    background-color: #555;
+    margin-left: 10px;
+    cursor: pointer;
+    /* background-color: #007bff; */
+    color: white;
+    font-size: 16px;
+
+    /* height: 3vh; */
+  }
+  .search-box button:hover {
+    background-color: #777;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* flex-direction: column; */
+  }
+  
+  .card {
+    width: 70vw;
+    /* border: 1px solid #e6e6e6; */
+    border-radius: 5px;
+    margin: 10px;
+    /* box-shadow: 0px 0px 5px #e6e6e6; */
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card .card-content{
+    margin: 0;
+    height: 180px;
+    padding: 10px;
+  }
+  .card .card-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+  }
+  /* .card-content h2 {
+    margin: 0;
+    padding: 0;
+  } */
+  .card-content a{
+    float: right;
+    margin: 0;
+    padding:10px;
+    color: #007bff;
+    text-decoration: none;
+
+  }
+  
+  .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }

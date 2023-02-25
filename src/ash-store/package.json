@@ -1,0 +1,12 @@
+{
+  "name": "ash-store",
+  "productName": "ASH Store",
+  "version": "0.0.4",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Ash OS",
+  "license": "ISC"
+}

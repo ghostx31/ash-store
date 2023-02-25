@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=o.0.4
+Type=Application
+Name=ash-store
+Comment=ASH Store
+Exec=./main.js
+Icon=./icon.png
+Terminal=false
+Categories=Utility;
