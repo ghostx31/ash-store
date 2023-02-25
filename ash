@@ -1,3 +1,3 @@
 #!/bin/bash
-
-electron ash-store/main.js
+#
+electron main.js
