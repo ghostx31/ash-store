@@ -1,3 +1,3 @@
 #!/bin/bash
 #
-electron main.js
+electron /opt/ash-store/main.js "$@"
